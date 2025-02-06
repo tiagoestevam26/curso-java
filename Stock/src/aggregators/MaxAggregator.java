@@ -9,6 +9,10 @@ public class MaxAggregator extends Aggregator{
         this.numbers = new ArrayList<Double>();
     }
 
+    public MaxAggregator() {
+
+    }
+
     @Override
     public double calculate() {
         double max = numbers.get(0);

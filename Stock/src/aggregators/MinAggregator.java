@@ -9,6 +9,10 @@ public class MinAggregator extends Aggregator{
         this.numbers = new ArrayList<Double>(numbers);
     }
 
+    public MinAggregator() {
+
+    }
+
     @Override
     public double calculate() {
         double min = numbers.get(0);
